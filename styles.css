@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+section.cv{
+    display: flex;
+    background-color: white;
+}
+div.general_info{
+    width: 30%;
+    background-color: #262D3C;
+    color: white;
+}
+.info{
+    padding-left: 20%;
+    padding-right: 5%;
+}
+.info div{
+    margin-bottom: 20%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: gold;
+    cursor: pointer;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 200px;
+
+}
+.main_info{
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.main_info div{
+    margin-bottom: 9%;
+}
+h1{
+    font-size: 42px;
+    font-style: italic;
+    margin-bottom: 1%;
+}
+h2{
+    font-style: italic;
+}
+h3{
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: solid 1px #e1e1e1;
+    text-transform: uppercase;
+}
+ul li{
+    list-style-type: circle;
+}
+.year{
+    font-weight: bold;
+    font-style: italic;
+    color: grey;
+}
+.company_name{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: grey;
+}
+.description{
+    font-style: italic;
+}
+div.social_links{
+    display: inline-block;
+}
+.social_icon{
+    width: 10px;
+    height: 10px;
+}
+footer{
+    color:antiquewhite;
+    text-align: center;
+}
